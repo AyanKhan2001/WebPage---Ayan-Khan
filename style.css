@@ -184,7 +184,7 @@ button:active{
 .contact-me button{
 	width:200px;
 	height:40px;
-	background-color: #FFFFFF;
+	background-color: #b9b9b9;
 	border:none;
 	outline:none;
 	font-size:14px;
@@ -212,6 +212,7 @@ footer{
 	align-items: center;
 	justify-content: center;
 	position: relative;
+	background-color: #bababa;
 }
 .social-icons a{
 	width:40px;
