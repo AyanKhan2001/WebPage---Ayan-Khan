@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Ayan Khan - WebPage</title>
+    <style>
+        body{
+    font-family:'Poppins', sans-serif;
+        }
+</style>
+</head>
+<body>
+    <section> 
+        <!--navigation------------------------->
+	<nav>
+        <!--logo-->
+        <a href="index.html" class="logo">Ayan Khan</a>
+        <!--menu-->
+        <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="mailto:khanayan147@gmail.com">Contact </a></li>
+        </ul>
+        <!--bars--------------->
+        <div class="toggle"></div>
+        </nav>
+        
+    </section>
+    <!--text----------------------->
+		<div class="text-container">
+			<p>Hello,</p>
+		    <p>I am Ayan</p>
+			<p> A Computer Science Student</p>
+            <a href="mailto:khanayan147@gmail.com">
+			<button class="hire-btn">Hire me</button> </a>
+			<button class="down-cv">Download CV</button>
+		</div>
+	<!--model---------------------->
+	<img alt="model" class="model" src="images/Ayan_Khan_Photo.jpg">  
+    <div class="about-container">
+        <!--img-->
+        <!--about-me-text-->
+            <div class="about-text">
+            <p>About Me</p>
+            <p>Computer Science Student who is into <br>Web Development,Software Development,Android Development and Machine Learning</p>
+            <p>Hello,My name is Ayan Khan. I am a Computer Science Student from New Delhi, Delhi, India.</p>
+            <p>Skills : Languages- C,Java and Python, Frontend and Backend Web Developer, UI & UX, Android Developer, Currently studying more about Machine learning, Creative with Adobe Photoshop and Premiere </p>
+            </div>
+        </div>
+        <!--if you have any project in your mind contact me-->
+	<div class="contact-me">
+		<p>If You Have Any Project In Your Mind ?</p>
+        <a href="mailto:khanayan147@gmail.com">
+        <button>Contact Me</button>
+    </a>
+	</div>
+    <footer>
+        <!--social-->
+       <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ayan-k-592b14b1/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+       <a href="https://www.facebook.com/ayank47"><i class="fab fa-facebook-f"></i></a>
+       <a href="https://twitter.com/khanayan147"><i class="fab fa-twitter"></i></a>
+       <a href="https://www.instagram.com/ayank_47/"><i class="fab fa-instagram"></i></a>
+       
+       </div>
+        <!--copyright-->
+        <p class="copyright">Copyright &#xA9 - Ayan Khan </p>
+   </footer>
+       <!--social-attach-bar-->
+       <div class="social">
+       <a href="https://www.facebook.com/ayank47"><i class="fab fa-facebook-f"></i></a>
+       <a href="https://twitter.com/khanayan147"><i class="fab fa-twitter"></i></a>
+       <a href="https://www.instagram.com/ayank_47/"><i class="fab fa-instagram"></i></a>
+       <a href="https://www.linkedin.com/in/ayan-k-592b14b1/"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+       </div>
+     <!--JQUery-------------------->
+<script type="text/javascript" src="js/JQuery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle').click(function(){
+        $('.toggle').toggleClass('active')
+        $('nav').toggleClass('active')
+    })
+})
+</script>
+</body>
+</html>
